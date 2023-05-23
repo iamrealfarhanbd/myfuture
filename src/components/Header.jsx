@@ -1,11 +1,13 @@
 "use client";
 import Link from "next/link";
+import Nav from "./Nav";
 
 const Header = () => {
 	return (
-		<nav style={{textAlign:'center'}}>
-			<h1> Nav Bar</h1>
-		</nav>
+		<>
+			<h1>Header</h1>
+			<Nav />
+		</>
 	);
 };
 
